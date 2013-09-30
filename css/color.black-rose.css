@@ -531,6 +531,13 @@ fieldset[disabled] .btn-theme.active {
   color: #999999;
   text-shadow: none;
 }
+#orgm_menu .nav > li.active > a,
+#orgm_menu .nav .nav > li.active > a {
+  font-weight: bold;
+}
+#orgm_menu .nav > li > a:hover {
+  background-color: transparent;
+}
 .nav.nav-stacked > li.active > a {
   background-color: #f34541;
   color: #fff;
@@ -611,3 +618,14 @@ a.list-group-item.active:hover .list-group-item-text {
 @import "hero-unit.less";
 */
 /* @import "utilities.less"; // Has to be last to override when necessary */
+#orgm_menu .nav > li > a,
+#orgm_menu .nav .nav > li > a {
+  color: #000000;
+}
+#orgm_menu .nav > li.active > a,
+#orgm_menu .nav .nav > li.active > a {
+  color: #f34541;
+}
+#orgm_menu .nav > li > a:hover {
+  color: #999999;
+}

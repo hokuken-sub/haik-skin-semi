@@ -531,6 +531,13 @@ fieldset[disabled] .btn-theme.active {
   color: #9b9b9b;
   text-shadow: none;
 }
+#orgm_menu .nav > li.active > a,
+#orgm_menu .nav .nav > li.active > a {
+  font-weight: bold;
+}
+#orgm_menu .nav > li > a:hover {
+  background-color: transparent;
+}
 .nav.nav-stacked > li.active > a {
   background-color: #ffffff;
   color: #fff;

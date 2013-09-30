@@ -531,6 +531,13 @@ fieldset[disabled] .btn-theme.active {
   color: #999999;
   text-shadow: none;
 }
+#orgm_menu .nav > li.active > a,
+#orgm_menu .nav .nav > li.active > a {
+  font-weight: bold;
+}
+#orgm_menu .nav > li > a:hover {
+  background-color: transparent;
+}
 .nav.nav-stacked > li.active > a {
   background-color: #d7e1e6;
   color: #fff;
@@ -633,4 +640,15 @@ a.list-group-item.active,
 a.list-group-item.active:hover {
   color: #999999;
   background-color: #d7e1e6;
+}
+#orgm_menu .nav > li > a,
+#orgm_menu .nav .nav > li > a {
+  color: #555555;
+}
+#orgm_menu .nav > li.active > a,
+#orgm_menu .nav .nav > li.active > a {
+  color: #98b2bf;
+}
+#orgm_menu .nav > li > a:hover {
+  color: #999999;
 }
