@@ -1,7 +1,7 @@
 <?php
 $config = array(
 	'name' => 'semi',
-	'version' => '1.0.1',
+	'version' => '1.0.2',
 	'thumbnail' => 'img/thumbnail.png',
 	'style_file' => 'css/docs.css',
 	'templates' => array(

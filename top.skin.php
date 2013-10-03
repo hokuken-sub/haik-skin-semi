@@ -30,12 +30,14 @@
 		<div class="container">
 			<div id="orgm_navbar" class="navbar navbar-inverse">
 				<div class="container">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<div id="logo" class="pull-right">#{$logo}</div>
+					<div class="navbar-header navbar-right">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<div id="logo">#{$logo}</div>
+					</div>
 					<nav class="navbar-collapse collapse">
 						#{$site_navigator}
 					</nav>
