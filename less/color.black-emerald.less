@@ -1,8 +1,8 @@
 // Theme Color
 // ---------------
 @theme:                 #3ABEB4; //emerald
-@themeBackground:       lighten(@theme, 30%);
-@themeBorder:           lighten(@theme, 20%);
+@themeBackground:       @theme;
+@themeBorder:           @theme;
 @themeText:             darken(@theme, 15%);
 
 @linkColor:				@theme;
@@ -10,6 +10,41 @@
 
 @import "skin.less";
 @import "color.less";
+
+
+
+.alert-theme {
+  background-color: @theme;
+  border-color: @theme;
+  color: @white;
+}
+
+.alert-theme a{
+	color: @grayLighter;
+}
+
+.alert-theme h1,
+.alert-theme h1 a,
+.alert-theme h2,
+.alert-theme h2 a,
+.alert-theme h3,
+.alert-theme h3 a,
+.alert-theme h4,
+.alert-theme h4 a,
+.alert-theme .nav > li > a,
+.alert-theme .nav .nav > li > a {
+  color: @white;
+}
+
+.alert-theme h1 a:hover,
+.alert-theme h2 a:hover,
+.alert-theme h3 a:hover,
+.alert-theme h4 a:hover,
+.alert-theme .nav > li > a:hover,
+.alert-theme .nav .nav > li > a:hover {
+	color: @themeText;
+	text-decoration: none;
+}
 
 #orgm_menu {
 	.nav > li > a,
@@ -25,4 +60,16 @@
 	.nav > li > a:hover {
 		color: @grayLight;
 	}
+
+	.alert-theme .nav > li > a,
+	.alert-theme .nav .nav > li > a {
+	  color: @white;
+	}
+
+	.alert-theme .nav > li > a:hover,
+	.alert-theme .nav .nav > li > a:hover {
+		color: @themeText;
+	}
+
+
 }

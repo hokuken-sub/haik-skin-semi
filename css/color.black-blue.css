@@ -390,8 +390,8 @@ fieldset[disabled] .btn-theme.active {
   color: inherit;
 }
 .alert-theme {
-  background-color: #b6daf2;
-  border-color: #8bc4ea;
+  background-color: #3498db;
+  border-color: #3498db;
   color: #1d6fa5;
 }
 .alert-theme a {
@@ -580,23 +580,8 @@ a.list-group-item.active:hover .list-group-item-text {
 #contents .panel-heading .panel-title {
   line-height: 1.1;
 }
-#contents .panel-default .panel-heading .panel-title {
-  color: #333;
-}
-#contents .panel-primary .panel-heading .panel-title {
-  color: #ffffff;
-}
-#contents .panel-success .panel-heading .panel-title {
-  color: #ffffff;
-}
-#contents .panel-warning .panel-heading .panel-title {
-  color: #ffffff;
-}
-#contents .panel-danger .panel-heading .panel-title {
-  color: #ffffff;
-}
-#contents .panel-info .panel-heading .panel-title {
-  color: #ffffff;
+#contents .panel-heading .panel-title a:hover {
+  color: inherit;
 }
 /* @import "breadcrumbs.less"; */
 /* @import "pagination.less"; */
@@ -618,6 +603,35 @@ a.list-group-item.active:hover .list-group-item-text {
 @import "hero-unit.less";
 */
 /* @import "utilities.less"; // Has to be last to override when necessary */
+.alert-theme {
+  background-color: #3498db;
+  border-color: #3498db;
+  color: #ffffff;
+}
+.alert-theme a {
+  color: #eeeeee;
+}
+.alert-theme h1,
+.alert-theme h1 a,
+.alert-theme h2,
+.alert-theme h2 a,
+.alert-theme h3,
+.alert-theme h3 a,
+.alert-theme h4,
+.alert-theme h4 a,
+.alert-theme .nav > li > a,
+.alert-theme .nav .nav > li > a {
+  color: #ffffff;
+}
+.alert-theme h1 a:hover,
+.alert-theme h2 a:hover,
+.alert-theme h3 a:hover,
+.alert-theme h4 a:hover,
+.alert-theme .nav > li > a:hover,
+.alert-theme .nav .nav > li > a:hover {
+  color: #1d6fa5;
+  text-decoration: none;
+}
 #orgm_menu .nav > li > a,
 #orgm_menu .nav .nav > li > a {
   color: #000000;
@@ -628,4 +642,12 @@ a.list-group-item.active:hover .list-group-item-text {
 }
 #orgm_menu .nav > li > a:hover {
   color: #999999;
+}
+#orgm_menu .alert-theme .nav > li > a,
+#orgm_menu .alert-theme .nav .nav > li > a {
+  color: #ffffff;
+}
+#orgm_menu .alert-theme .nav > li > a:hover,
+#orgm_menu .alert-theme .nav .nav > li > a:hover {
+  color: #1d6fa5;
 }

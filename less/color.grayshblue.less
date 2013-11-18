@@ -61,6 +61,38 @@ a.list-group-item.active:hover {
 	background-color: @theme;
 }
 
+
+.alert-theme {
+  background-color: @theme;
+  border-color: @theme;
+  color: @grayLight;
+}
+
+.alert-theme h1,
+.alert-theme h1 a,
+.alert-theme h2,
+.alert-theme h2 a,
+.alert-theme h3,
+.alert-theme h3 a,
+.alert-theme h4,
+.alert-theme h4 a,
+.alert-theme .nav > li > a,
+.alert-theme .nav .nav > li > a {
+  color: @grayLight;
+}
+
+.alert-theme h1 a:hover,
+.alert-theme h2 a:hover,
+.alert-theme h3 a:hover,
+.alert-theme h4 a:hover,
+.alert-theme .nav > li > a:hover,
+.alert-theme .nav .nav > li > a:hover {
+	color: @themeText;
+	text-decoration: none;
+}
+
+
+
 #orgm_menu {
 	.nav > li > a,
 	.nav .nav > li > a {
@@ -75,4 +107,18 @@ a.list-group-item.active:hover {
 	.nav > li > a:hover {
 		color: @grayLight;
 	}
+
+
+	.alert-theme .nav > li > a,
+	.alert-theme .nav .nav > li > a {
+	  color: @grayLight;
+	}
+
+	.alert-theme .nav > li > a:hover,
+	.alert-theme .nav .nav > li > a:hover {
+		color: @themeText;
+	}
+
 }
+
+
