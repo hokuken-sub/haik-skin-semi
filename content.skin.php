@@ -57,9 +57,9 @@
 		<div class="col-sm-9 col-sm-push-3 marketing" role="main">
 			#{$body}
 		</div>
-		<div class="col-sm-3 col-sm-pull-9">
+		<aside class="col-sm-3 col-sm-pull-9">
 			#{$menu}
-		</div>
+		</aside>
 	</div>
 </div>
 
