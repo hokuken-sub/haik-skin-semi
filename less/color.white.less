@@ -45,11 +45,18 @@
 	#orgm_nav .nav > li.dropdown.open > .dropdown-menu > li > a:hover {
 		color: @navbarInverseLinkColorHover;
 	}
-}
-
-#orgm_eyecatch {
-	.carousel {
-		background-color: lighten(@themeBackground, 30%);
+	.navbar-toggle {
+		border-color:@themeText;
+	}
+	.navbar-toggle:hover,
+	.navbar-toggle:focus{
+		background-color: darken(@theme, 2%);
+	}
+	.navbar-toggle .icon-bar {
+		background-color:@themeText;
+	}
+	.navbar-collapse {
+		border-color: darken(@theme, 2%);
 	}
 }
 

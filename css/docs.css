@@ -20,10 +20,6 @@ body {
 	margin-bottom: -90px; /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
 }
 
-.navbar-wrapper .navbar {
-
-}
-
 /* Remove border and change up box shadow for more contrast */
 #orgm_navbar .navbar{
   border: 0;
@@ -87,78 +83,6 @@ body {
 
 #orgm_nav .nav > li.dropdown.open > .dropdown-menu > li > a {
 	color: #fff;
-}
-
-
-/* CUSTOMIZE THE CAROUSEL
--------------------------------------------------- */
-
-/* Carousel base class */
-#orgm_eyecatch .carousel {
-	margin-bottom: 30px;
-	background-color: #333;
-}
-
-#orgm_eyecatch .carousel-control {
-	margin-top: 0;
-	font-size: 120px;
-	text-shadow: 0 1px 1px rgba(0,0,0,.4);
-	background-color: transparent;
-	border: 0;
-	z-index: 10;
-	line-height: 500px;
-	color:	#555;
-}
-
-#orgm_eyecatch .carousel .item {
-	height: 500px;
-}
-
-#orgm_eyecatch .carousel img {
-	position: relative;
-	min-width: 100%;
-}
-
-#orgm_eyecatch .carousel.fit .item{
-	height: auto;
-}
-#orgm_eyecatch .carousel.fit .item img {
-	min-height: inherit;
-	height: auto;
-}
-
-#orgm_eyecatch .carousel-caption {
-	background-color: transparent;
-	position: absolute;
-	top:50%;
-	padding: 0;
-	z-index: 9;
-	margin-top: -30px;
-	text-align: left;
-}
-
-#orgm_eyecatch .carousel-caption h1,
-#orgm_eyecatch .carousel-caption .lead {
-	margin: 0;
-	line-height: 1.25;
-	color: #fff;
-	text-shadow: 0 1px 1px rgba(0,0,0,.4);
-}
-
-#orgm_eyecatch .carousel-caption .btn {
-	margin-top: 10px;
-}
-
-#orgm_eyecatch .carousel .carousel-control {
-	background-image:none;
-}
-
-#orgm_eyecatch .carousel.single .carousel-control {
-	display: none;
-}
-
-#orgm_eyecatch.no-eyecatch {
-	height: 90px;
 }
 
 
@@ -315,7 +239,7 @@ body {
   	color: inherit;
   }
 
-
+/*
   #orgm_eyecatch .carousel .item {
     height: 500px;
   }
@@ -323,6 +247,7 @@ body {
     width: auto;
     height: 500px;
   }
+*/
 
   .featurette {
     height: auto;
@@ -340,52 +265,44 @@ body {
 
 @media (max-width: 767px) {
 
-  body {
-    box-sizing: border-box;
-  }
-
-  .navbar-wrapper .navbar-inner {
-    margin: -20px -20px;
-    box-sizing: border-box;
-  }
-  #orgm_nav .nav.list1 {
+	body {
+	box-sizing: border-box;
+	}
+	
+	.navbar-wrapper .navbar-inner {
+	margin: -20px -20px;
+	box-sizing: border-box;
+	}
+	#orgm_nav .nav.list1 {
 	  margin-left: -15px;
-  }
+	}
 
-  #orgm_eyecatch .carousel {
-  }
+	#orgm_eyecatch .haik-section{
+		height: 250px !important;
+	}
+	#orgm_eyecatch .carousel .item {
+		max-height: 250px !important;
+		min-height: 250px !important;
+	}
+	#orgm_eyecatch .carousel .item img {
+		min-height: 250px !important;
+	}
+	#orgm_eyecatch .carousel .carousel-caption h1 {
+		font-size: 28px;
+	}
+	#orgm_eyecatch .carousel .carousel-caption .lead {
+		font-size: 16px;
+	}
 
-  #orgm_eyecatch .carousel .item {
-    height: 300px;
-  }
-  #orgm_eyecatch .carousel img {
-    min-height: 300px;
-    min-width:100%;
-  }
-  #orgm_eyecatch .carousel-caption {
-  }
-  #orgm_eyecatch .carousel-caption h1 {
-    font-size: 30px;
-  }
-  #orgm_eyecatch .carousel-caption .lead,
-  #orgm_eyecatch .carousel-caption .btn {
-    font-size: 18px;
-  }
-  
-  #orgm_eyecatch .carousel-control {
-	  line-height: 300px;
-  }
-
-  .marketing .col-lg-4 + .col-lg-4 {
-    margin-top: 40px;
-  }
-
-  .featurette-heading {
-    font-size: 30px;
-  }
-  .featurette .lead {
-    font-size: 18px;
-    line-height: 1.5;
-  }
-
+	.marketing .col-lg-4 + .col-lg-4 {
+	margin-top: 40px;
+	}
+	
+	.featurette-heading {
+	font-size: 30px;
+	}
+	.featurette .lead {
+	font-size: 18px;
+	line-height: 1.5;
+	}
 }

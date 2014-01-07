@@ -38,11 +38,16 @@
 	#orgm_nav .nav > li.dropdown.open > .dropdown-menu > li > a {
 		color: @navbarInverseLinkColor;
 	}
-}
 
-#orgm_eyecatch {
-	.carousel {
-		background-color: @themeBackground;
+	.navbar-toggle {
+		border-color:#fff;
+	}
+	.navbar-toggle:hover,
+	.navbar-toggle:focus{
+		background-color: darken(@theme, 2%);
+	}
+	.navbar-collapse {
+		border-color: darken(@theme, 2%);
 	}
 }
 

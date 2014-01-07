@@ -37,23 +37,16 @@
 	#orgm_nav .nav > li.dropdown.open > .dropdown-menu > li > a {
 		color: @navbarInverseLinkColor;
 	}
-}
-
-#orgm_eyecatch {
-	.carousel {
-		background-color: @white;
+	.navbar-toggle {
+		border-color:#fff;
 	}
-	
-	.carousel-caption h1,
-	.carousel-caption .lead {
-		color: @theme;
-		text-shadow: 0 1px 1px rgba(0,0,0,.2);
+	.navbar-toggle:hover,
+	.navbar-toggle:focus{
+		background-color: darken(@theme, 2%);
 	}
-	
-	.carousel-control {
-		color: @theme;
+	.navbar-collapse {
+		border-color: darken(@theme, 2%);
 	}
-	
 }
 
 .page-header {
@@ -95,8 +88,6 @@
 	text-decoration: none;
 }
 
-
-
 #orgm_menu {
 	.nav > li > a,
 	.nav .nav > li > a {
@@ -124,5 +115,3 @@
 	}
 
 }
-
-
