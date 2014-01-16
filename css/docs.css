@@ -85,6 +85,11 @@ body {
 	color: #fff;
 }
 
+/* EYECATCH 
+-------------------------------------------------- */
+#orgm_eyecatch .haik-section{
+	padding-top: 72px;
+}
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
@@ -239,16 +244,6 @@ body {
   	color: inherit;
   }
 
-/*
-  #orgm_eyecatch .carousel .item {
-    height: 500px;
-  }
-  #orgm_eyecatch .carousel img {
-    width: auto;
-    height: 500px;
-  }
-*/
-
   .featurette {
     height: auto;
     padding: 0;
@@ -279,6 +274,7 @@ body {
 
 	#orgm_eyecatch .haik-section{
 		height: 250px !important;
+		padding-top: 72px;
 	}
 	#orgm_eyecatch .carousel .item {
 		max-height: 250px !important;

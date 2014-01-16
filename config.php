@@ -1,7 +1,7 @@
 <?php
 $config = array(
 	'name' => 'semi',
-	'version' => '1.1.0',
+	'version' => '1.2.0',
 	'thumbnail' => 'img/thumbnail.png',
 	'style_file' => 'css/docs.css',
 	'templates' => array(
@@ -14,7 +14,12 @@ $config = array(
 			'filename' => 'content.skin.php',
 			'layouts' => array('SiteNavigator', 'SiteFooter', 'MenuBar'),
 			'thumbnail' => 'img/thumbnail.content.png',
-		)
+		),
+		'fit' => array(
+			'filename' => 'fit.skin.php',
+			'layouts' => array('SiteNavigator', 'SiteFooter'),
+			'thumbnail' => 'img/thumbnail.fit.png',
+		),
 	),
 	'default_template' => 'content',
 	'colors' => array(
