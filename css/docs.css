@@ -85,6 +85,12 @@ body {
 	color: #fff;
 }
 
+/* EYECATCH
+-------------------------------------------------- */
+#orgm_eyecatch.no-eyecatch {
+	height: 90px;
+}
+
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
